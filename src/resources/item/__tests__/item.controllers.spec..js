@@ -10,7 +10,6 @@ describe('item controllers', () => {
       'removeOne',
       'updateOne'
     ]
-
     crudMethods.forEach(name =>
       expect(isFunction(controllers[name])).toBe(true)
     )
